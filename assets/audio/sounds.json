@@ -1,0 +1,546 @@
+[
+{
+"name": "hive",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Inside a warm happy beehive, a soft sunny humming of many bees, gentle and cosy, bright and friendly, natural recording, no low drone, no music, no voices, no reverb wash, seamless loop",
+"used_by": "hive instances (full and simple)"
+},
+{
+"name": "rain-steady",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Steady soft rain on leaves, grass and a small puddle, even gentle patter close by, calm and cosy, natural field recording, no thunder, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (rain)"
+},
+{
+"name": "rain-light",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Light gentle rain on leaves and grass in a quiet garden, a few soft close drops, calm and delicate, natural field recording, no thunder, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (rain)"
+},
+{
+"name": "rain-heavy",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Heavy but soothing rain shower on leaves and a wooden roof, dense soft patter, cosy, natural field recording, no thunder, no wind howl, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (rain, storm)"
+},
+{
+"name": "wind-breeze",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Soft summer breeze through tall grass and leaves, gentle airy rustle, calm, natural field recording, no whistling, no howl, no music, no voices, no reverb wash, seamless loop",
+"used_by": "every outdoor place"
+},
+{
+"name": "wind-strong",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Brisk wind through trees and grass, leaves rushing and tossing, lively but friendly, natural field recording, no howling, no whistling, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (wind, storm)"
+},
+{
+"name": "storm-far",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Gentle rain with very distant soft rolling thunder far away, cosy listening from indoors, no cracks, no loud booms, calm, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (storm)"
+},
+{
+"name": "thunder",
+"kind": "sfx",
+"seconds": "5",
+"loop": "no",
+"prompt": "Very distant soft rolling thunder far away beyond the hills, low and gentle, no crack, no boom, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "gust",
+"kind": "sfx",
+"seconds": "3",
+"loop": "no",
+"prompt": "A soft gust of wind passing through leaves, swelling and fading gently, no whistle, soft and close, natural, no music, no voices, no reverb",
+"used_by": "engine swirl, soundscape events"
+},
+{
+"name": "drop",
+"kind": "sfx",
+"seconds": "0.8",
+"loop": "no",
+"prompt": "One raindrop landing on a big leaf, tiny soft tap, soft and close, natural, no music, no voices, no reverb",
+"used_by": "engine patter (once the engine switches)"
+},
+{
+"name": "rustle",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "Hand brushing gently through a bush of soft green leaves, close soft rustle, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:_painted, full:beach, full:meadow, full:wood, simple:antnest, simple:beach, simple:kit, simple:meadow, simple:pond, simple:riverbank, simple:wood, soundscape events"
+},
+{
+"name": "grass",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "Fingers stroking through tall soft grass, light swishy rustle, close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "new voice (places may call it)"
+},
+{
+"name": "bloom",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A flower bud opening softly, tiny delicate petal rustle and a soft airy puff, gentle and magical but natural, soft and close, natural, no music, no voices, no reverb",
+"used_by": "new voice (places may call it)"
+},
+{
+"name": "apple",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A small apple dropping onto soft grass, gentle muffled thud with a tiny bounce, soft and close, natural, no music, no voices, no reverb",
+"used_by": "new voice (places may call it)"
+},
+{
+"name": "crunch",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "Small paw stepping on dry autumn leaves, soft crisp crunch, close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:meadow, simple:antnest, simple:beach, simple:meadow, simple:riverbank, simple:undersea, simple:wood"
+},
+{
+"name": "snap",
+"kind": "sfx",
+"seconds": "0.8",
+"loop": "no",
+"prompt": "A thin dry twig snapping softly, small and clean, soft and close, natural, no music, no voices, no reverb",
+"used_by": "voice kit (no place calls it yet)"
+},
+{
+"name": "pop",
+"kind": "sfx",
+"seconds": "0.6",
+"loop": "no",
+"prompt": "A tiny seed pod popping open, soft light pop, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, simple:beach, simple:pond, simple:underground, simple:undersea"
+},
+{
+"name": "dig",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "Small animal paws digging in soft earth, gentle scratchy scuffles, close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, simple:antnest, simple:beach, simple:meadow, simple:underground, simple:wood, soundscape events"
+},
+{
+"name": "bees",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "A few honey bees buzzing gently among flowers on a sunny afternoon, warm friendly hum close by, natural field recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "meadow (day, warm seasons)"
+},
+{
+"name": "buzz",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A single bumblebee buzzing past, warm friendly hum, close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:meadow, simple:meadow, simple:pond, soundscape events"
+},
+{
+"name": "chirp",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A small songbird chirping a few bright notes nearby, cheerful, natural recording, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, simple:beach, simple:meadow, simple:pond, simple:riverbank, simple:wood, soundscape events"
+},
+{
+"name": "peep",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A baby bird chick peeping softly in a nest, tiny and sweet, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, simple:antnest, simple:beach, simple:meadow, simple:pond, simple:riverbank, simple:undersea, simple:wood, soundscape events"
+},
+{
+"name": "hoot",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A small owl hooting softly at night, gentle and calm, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:meadow, full:wood, simple:meadow, simple:wood, soundscape events"
+},
+{
+"name": "ribbit",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A small frog croaking a cheerful ribbit at a pond, close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, soundscape events"
+},
+{
+"name": "squeak",
+"kind": "sfx",
+"seconds": "0.6",
+"loop": "no",
+"prompt": "A tiny mouse squeaking softly, sweet, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, simple:meadow, simple:riverbank, simple:underground, simple:wood"
+},
+{
+"name": "snore",
+"kind": "sfx",
+"seconds": "2",
+"loop": "no",
+"prompt": "A small sleeping animal snoring very softly, sweet and peaceful, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, simple:antnest, simple:beach, simple:meadow, simple:pond, simple:underground, simple:wood, soundscape events"
+},
+{
+"name": "sniff",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A hedgehog sniffing and snuffling in leaves, tiny soft snuffles, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, simple:beach, simple:meadow, simple:wood"
+},
+{
+"name": "purr",
+"kind": "sfx",
+"seconds": "2",
+"loop": "no",
+"prompt": "A content cat purring softly, close and warm, soft and close, natural, no music, no voices, no reverb",
+"used_by": "simple:beach, simple:meadow, simple:wood"
+},
+{
+"name": "flutter",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A small bird fluttering its wings as it takes off, soft feathery flaps, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, simple:antnest, simple:meadow, simple:pond, simple:riverbank"
+},
+{
+"name": "chitter",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A red squirrel chattering softly in a tree, playful, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:wood, simple:antnest, simple:wood"
+},
+{
+"name": "quack",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A duck quacking softly twice on a pond, friendly, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "gull",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A seagull calling in the distance over a beach, soft and airy, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, soundscape events"
+},
+{
+"name": "trill",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A wren singing a short quick trill nearby, bright and cheerful, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, soundscape events"
+},
+{
+"name": "night-crickets",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Warm summer night meadow, a few crickets chirping softly near and far, calm and peaceful, natural field recording, no frogs, no music, no voices, no reverb wash, seamless loop",
+"used_by": "night in meadow, antnest, wood, pond, riverbank, town, ravensnook"
+},
+{
+"name": "stream",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Small clear brook babbling over pebbles, gentle bright trickle close by, calm, natural field recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "riverbank"
+},
+{
+"name": "waves",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Small gentle waves lapping on a sandy beach, soft wash and fizz close by, calm sunny day, natural field recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "beach"
+},
+{
+"name": "waves-big",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Bigger waves rolling onto a sandy beach on a breezy day, full soft wash and fizz, lively but calm, natural field recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "beach in wind and storm"
+},
+{
+"name": "underwater",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Gentle underwater ambience in a sunny shallow sea, soft muffled water movement with a few tiny bubbles, calm and dreamy, no music, no voices, no reverb wash, seamless loop",
+"used_by": "undersea, grotto instances"
+},
+{
+"name": "cave-air",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Quiet small cave with a soft air hush and occasional faraway water drip, calm and safe, no rumble, no wind howl, no music, no voices, no reverb wash, seamless loop",
+"used_by": "underground, cave, burrow, nest, hollow instances"
+},
+{
+"name": "snow-hush",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Quiet snowy afternoon, soft hush of falling snow, faint distant air, very calm and still, natural field recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "engine weather (snow)"
+},
+{
+"name": "hearth",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "Small cosy fireplace with soft wood crackles and a gentle flame flutter, warm and calm, close recording, no music, no voices, no reverb wash, seamless loop",
+"used_by": "house instances"
+},
+{
+"name": "drip",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A single water drop falling into a small puddle, soft clear plink, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:_painted, full:beach, full:meadow, simple:beach, simple:meadow, simple:pond, simple:riverbank, simple:wood, engine patter, soundscape events"
+},
+{
+"name": "plop",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A small pebble dropping into a pond, soft round plop, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, full:wood, simple:beach, simple:pond, simple:underground, simple:undersea, soundscape events"
+},
+{
+"name": "splash",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A small fish splashing at a pond surface, light gentle splash, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, simple:beach, simple:meadow, simple:pond, simple:riverbank"
+},
+{
+"name": "bubble",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A few small bubbles rising in water, soft bubbly blips, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, soundscape events"
+},
+{
+"name": "wave",
+"kind": "sfx",
+"seconds": "3",
+"loop": "no",
+"prompt": "One gentle wave washing onto sand and fizzing back, soft and close, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, soundscape events"
+},
+{
+"name": "squelch",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A small foot stepping into soft mud, gentle wet squelch, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:wood, simple:beach, simple:underground, simple:undersea"
+},
+{
+"name": "whoosh",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A soft airy swish, like a gentle hand waving past, smooth and quiet, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:meadow, simple:beach, simple:meadow, simple:riverbank, simple:undersea, engine wipe and fog hand"
+},
+{
+"name": "tok",
+"kind": "sfx",
+"seconds": "0.5",
+"loop": "no",
+"prompt": "A single light tap on hollow wood, small and clear, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:_painted, full:beach, full:meadow, full:wood, simple:antnest, simple:beach, simple:meadow, simple:pond, simple:riverbank, simple:undersea, simple:wood, soundscape events"
+},
+{
+"name": "knock",
+"kind": "sfx",
+"seconds": "0.8",
+"loop": "no",
+"prompt": "Two soft knocks on a small wooden door, warm and friendly, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, simple:beach, simple:meadow, simple:riverbank, simple:undersea, simple:wood"
+},
+{
+"name": "creak",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A small wooden gate creaking softly, short and friendly, not spooky, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, full:wood, simple:meadow, simple:pond"
+},
+{
+"name": "step",
+"kind": "sfx",
+"seconds": "0.6",
+"loop": "no",
+"prompt": "One small soft footstep on a mossy path, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:meadow, full:wood, simple:meadow"
+},
+{
+"name": "crackle",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A few small crackles of a cosy fire, soft and warm, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "coo",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A dove cooing softly, gentle and calm, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "caw",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A raven making a soft friendly croak nearby, curious, not menacing, soft and close, natural, no music, no voices, no reverb",
+"used_by": "voice kit (no place calls it yet)"
+},
+{
+"name": "cry",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A buzzard calling far away over the mountains, soft and distant, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:beach, soundscape events"
+},
+{
+"name": "croak",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A toad giving a soft low friendly croak, short, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "hum",
+"kind": "sfx",
+"seconds": "1.5",
+"loop": "no",
+"prompt": "A dragonfly hovering briefly with a soft wing hum, soft and close, natural, no music, no voices, no reverb",
+"used_by": "full:meadow, simple:meadow, simple:undersea, soundscape events"
+},
+{
+"name": "cricket",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "One cricket chirping a few times, close and soft, soft and close, natural, no music, no voices, no reverb",
+"used_by": "voice kit (no place calls it yet)"
+},
+{
+"name": "meow",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A kitten giving a soft little meow, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "bleat",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A young goat bleating softly in the mountains, soft and close, natural, no music, no voices, no reverb",
+"used_by": "voice kit (no place calls it yet)"
+},
+{
+"name": "whistle",
+"kind": "sfx",
+"seconds": "1",
+"loop": "no",
+"prompt": "A marmot giving a short soft whistle across a meadow, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "whale",
+"kind": "sfx",
+"seconds": "5",
+"loop": "no",
+"prompt": "A distant whale song heard underwater, soft, slow and gentle, soft and close, natural, no music, no voices, no reverb",
+"used_by": "soundscape events"
+},
+{
+"name": "seal",
+"kind": "sfx",
+"seconds": "1.2",
+"loop": "no",
+"prompt": "A young seal giving a soft friendly bark on a beach, soft and close, natural, no music, no voices, no reverb",
+"used_by": "new voice (places may call it)"
+},
+{
+"name": "thump",
+"kind": "sfx",
+"seconds": "0.6",
+"loop": "no",
+"prompt": "A rabbit thumping its back foot on soft earth, small muffled thump, soft and close, natural, no music, no voices, no reverb",
+"used_by": "new voice (places may call it)"
+},
+{
+"name": "waterfall-soft",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "A small woodland waterfall falling in many thin veils over mossy rock into a shallow pool, soft even hush with gentle trickles, calm and close, natural field recording, no roar, no birds, no music, no voices, no reverb wash, seamless loop",
+"used_by": "falls (painted), wood creek"
+},
+{
+"name": "water-veil",
+"kind": "sfx",
+"seconds": "3",
+"loop": "no",
+"prompt": "A hand passing through a thin veil of falling water, a soft splashy swish and a few drops, gentle, close, natural recording, no music, no voices",
+"used_by": "falls (stroke through the water)"
+},
+{
+"name": "tanpura-drone",
+"kind": "ambiance",
+"seconds": "10",
+"loop": "yes",
+"prompt": "A real Indian tanpura drone tuned to D, four strings plucked slowly one after another, warm buzzing overtones, soft and meditative, close dry studio recording, steady, no sitar melody, no tabla, no voices, no reverb wash, seamless loop",
+"used_by": "falls music (bed under the sitar)"
+}
+]

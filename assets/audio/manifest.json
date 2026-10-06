@@ -1,0 +1,89 @@
+{
+ "beds": {
+  "hive": {
+   "files": [
+    "beds/hive-1.ogg"
+   ],
+   "gain": 1
+  },
+  "rain-heavy": {
+   "files": [
+    "beds/rain-heavy-1.ogg"
+   ],
+   "gain": 1
+  },
+  "rain-light": {
+   "files": [
+    "beds/rain-light-1.ogg"
+   ],
+   "gain": 1
+  },
+  "rain-steady": {
+   "files": [
+    "beds/rain-steady-1.ogg"
+   ],
+   "gain": 1
+  },
+  "storm-far": {
+   "files": [
+    "beds/storm-far-1.ogg"
+   ],
+   "gain": 1
+  },
+  "wind-breeze": {
+   "files": [
+    "beds/wind-breeze-1.ogg"
+   ],
+   "gain": 1
+  },
+  "wind-strong": {
+   "files": [
+    "beds/wind-strong-1.ogg"
+   ],
+   "gain": 1
+  }
+ },
+ "sfx": {
+  "grass": {
+   "files": [
+    "sfx/grass-1.ogg"
+   ],
+   "gain": 1,
+   "pitch": 0.05,
+   "places": [
+    "*"
+   ]
+  },
+  "gust": {
+   "files": [
+    "sfx/gust-1.ogg"
+   ],
+   "gain": 1,
+   "pitch": 0.05,
+   "places": [
+    "*"
+   ]
+  },
+  "rustle": {
+   "files": [
+    "sfx/rustle-1.ogg"
+   ],
+   "gain": 1,
+   "pitch": 0.05,
+   "places": [
+    "*"
+   ]
+  },
+  "thunder": {
+   "files": [
+    "sfx/thunder-1.ogg"
+   ],
+   "gain": 1,
+   "pitch": 0.05,
+   "places": [
+    "*"
+   ]
+  }
+ },
+ "version": 1
+}
